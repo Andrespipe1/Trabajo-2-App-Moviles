@@ -78,6 +78,7 @@ private platform: Platform;
       resultType:CameraResultType.Uri,
       source:CameraSource.Camera,
       quality:100
+      
     });
   
     const savedImageFile=await this.savePicture(capturedPhoto)
