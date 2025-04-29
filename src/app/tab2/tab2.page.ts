@@ -15,8 +15,13 @@ export class Tab2Page {
 
     
   }
-  async ngOnInit() {
-    await this.photoService.loadSaved();
+
+  loadPhotos() {
+    this.photoService.loadSaved();
   }
+  
+  // async ngOnInit() {
+  //   await this.photoService.loadSaved();
+  // }
 
 }
