@@ -89,6 +89,7 @@ private platform: Platform;
     });
   }
   
+
   public async loadSaved() {
     // Retrieve cached photo array data
     const { value } = await Preferences.get({ key: this.PHOTO_STORAGE });
